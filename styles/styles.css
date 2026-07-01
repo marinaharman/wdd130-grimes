@@ -52,7 +52,7 @@ nav a {
     align-items: center;
     gap: 50px;
 
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 80px auto;
     padding: 0 40px;
 }
@@ -71,4 +71,21 @@ nav a {
 #top-home img {
     width: 100%;
     height: auto;
+}
+
+#text h1 {
+    padding-bottom: 75px;
+}
+
+#text h2 {
+    padding-bottom: 75px;
+}
+
+#bottom-home img {
+    width: 500px;
+}
+
+#bottom-home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }

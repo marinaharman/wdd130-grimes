@@ -1,3 +1,74 @@
-background-color {
-    color: pink;
+@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&family=Asimovian&family=BJCree:wght@400;500;600;700&family=Bebas+Neue&family=Carter+One&family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Yatra+One&family=Young+Serif&display=swap');
+
+h1, h2, h3 {
+    font-family: "Bebas Neue";
+    color: #274661;
+}
+
+h4, h5 {
+    font-family: Montserrat;
+    color: #FF5A36;
+}
+
+li, a {
+    font-family: Montserrat;
+    color: #00E5A3;
+}
+
+body {
+    background-color: #FBFBF9;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    background-color: #274661;
+    border: #274661 solid 5px;
+}
+
+nav img {
+    width: 300px;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+nav a {
+    margin-right: 50px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+/* #top-home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+} */
+
+#top-home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+}
+
+#top-home h1 {
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#top-home p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+#top-home img {
+    width: 100%;
+    height: auto;
 }
